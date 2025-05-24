@@ -1,0 +1,26 @@
+git init
+
+git add .
+git commit -m "Commit inicial com três arquivos de texto"
+git diff
+git add .
+git commit -m "Modificações feitas arquivo 1 e 2"
+git log
+git log --oneline
+git log --graph --oneline
+git revert HEAD
+git stash
+git checkout -b newbranch
+git checkout main
+git stash pop
+git add .
+git commit -m "alteração arquivo 3"
+git reflog
+git log --oneline
+git tag -a v1.0 <6b84526> -m "Versão estável"
+# (Adicione este passo final ao arquivo)
+git add comandos.txt
+git commit -m "log de comandos da tarefa"
+git remote add origin https://github.com/jlucas-embarcatech/GIT-Tarefa-3
+git push -u origin master
+git push --tags
